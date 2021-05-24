@@ -24,7 +24,7 @@ import java.util.Collections;
 @Configuration
 public class AxonConfig {
 
-    @Value("${spring.data.mongodb.host:120.0.0.1}")
+    @Value("${spring.data.mongodb.host:127.0.0.1}")
     private String mongoHost;
     @Value("${spring.data.mongodb.port:27017}")
     private int mongoPort;
