@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.springbank</groupId>
 	<artifactId>user.cmd.api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>user.cmd.api</name>
 	<description>User Command API project</description>
 	<properties>
@@ -37,11 +37,11 @@
 			<version>4.4</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.springbank</groupId>
-			<artifactId>user.core</artifactId>
-			<version>1.0.0</version>
-		</dependency>
+			<dependency>
+				<groupId>com.springbank</groupId>
+				<artifactId>user.core</artifactId>
+				<version>1.0.0</version>
+			</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
